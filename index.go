@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	wordList := strings.Split(getHttp("https://raw.githubusercontent.com/danieldonda/wordlist/master/top10k.txt"), "\n")
+	wordList := strings.Split(getHttp("https://raw.githubusercontent.com/kkrypt0nn/wordlists/main/passwords/xato_net_passwords.txt"), "\n")
 
 	for i := 0; i < len(wordList); i++ {
 		log.Println(wordList[i])
